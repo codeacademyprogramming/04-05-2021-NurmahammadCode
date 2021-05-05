@@ -1,0 +1,93 @@
+.site-container {
+  height: 100vh;
+  background: url(./assets/background-image.png) no-repeat center;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-container {
+  width: 100%;
+}
+
+.menu-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #272d4e;
+}
+
+.login-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #272d4e;
+}
+
+.started-button {
+  width: 120px;
+  height: 47px;
+  border-radius: 5px;
+  background-color: #7854f7;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-search {
+  width: 16px;
+  height: 16px;
+}
+
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.featured-image {
+  position: absolute;
+  width: 800px;
+  height: 600.14px;
+  right: -2%;
+  top: 18%;
+  object-fit: contain;
+}
+
+.first-section-main-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 65px;
+  /* or 112% */
+
+  color: #272d4e;
+}
